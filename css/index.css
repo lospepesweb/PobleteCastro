@@ -1,0 +1,84 @@
+@font-face{
+	font-family: Lato;
+	src: url("../fonts/Lato-Regular.ttf");
+}
+body {
+	font-family: Lato;
+}
+h1.oculto {
+	display: none;
+}
+.main {
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+}
+@media screen and (max-width: 767px){
+	.main {
+	background-image: url(../imgS/bg.jpg);
+	background-size: cover;
+}
+}
+.main > .container > .row > img {
+	width: 100%;
+	padding-left:5%;
+	padding-right:5%;
+}
+.main > .container > p > span {
+	color: rgb(56,113,193);
+}
+.nosotros {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+span.linea {
+	display: block;
+	height: 0;
+	width: 10%;
+	margin-bottom: 5%;
+	border: 1px solid rgb(56,113,193);
+}
+.servicios {
+	background-color: rgba(145,143,144,0.5);
+}
+.servicios .container .row div {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.servicios .container .row div h2 {
+	color:rgb(56,113,193);
+}
+.img {
+	background-image: url(../img/img.jpg);
+	background-size: cover;
+	margin-bottom: 0;
+}
+.img p {
+	font-size: 42px;
+	text-align: center;
+	color:#fff;
+	padding: 25% 5%;
+	margin: 0;
+}
+.footer {
+	background: #000;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.footer h2 {
+	color: rgba(145,143,144,1);
+}
+.footer	a:hover {
+	text-decoration-style: none;
+}
+.footer p {
+	color:rgb(51,122,183);
+}
+@media screen and (max-width: 767px) {
+	.main > .container > .row > img {
+	padding: 10% 5%;
+	}
+	.main {
+	background-image: url(../img/bgS.jpg);
+	background-size: cover;
+	}
+}
